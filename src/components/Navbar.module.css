@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    align-content: space-around;
+    background-color: white;
+    width: auto;
+    /* position: sticky; */
+    box-shadow: 0px 0px 5px 1px rgb(182 146 233);
+   }
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    position:absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .busybuy {
+    justify-content: flex-start;
+  }
+
+  .home, .cart, .orders, .logout, .signIn{
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    height: 50px;
+    /* top: 40%; */
+    padding-top: 10px;
+    margin-right: 0.1px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+  }
+
+  /* h2{
+    left: 0;
+  } */
+
+  

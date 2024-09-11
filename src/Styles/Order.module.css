@@ -1,0 +1,81 @@
+
+/* .orderPage {
+  background-color: rgba(45, 49, 51, 0.21);
+  border: none;
+  margin-top: 30px;
+  position: relative;
+  width: 60%;
+  font-size: 20px;
+}
+.orderPage h1{
+  font-size: 10px;
+} */
+* {
+  box-sizing: border-box;
+}
+
+.orders h1{
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+}
+
+.ordered{
+  font-size: 20px;
+  font-weight: 700;
+  width: 500px;
+  position: relative;
+  /* left: 200px; */
+  margin-left: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ordered h2{
+  color: #1a4757;
+}
+
+tr {
+  display: table-row;
+  vertical-align:text-bottom;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+
+th{
+  color: black;
+  font-size: 20px;
+  border-left: solid 2px white;
+  border-bottom: solid 4px black;
+  padding: 10px;
+  background-color: #a6aeb0;
+}
+
+td{
+  color: black;
+  padding: 15px;
+  border-left: solid 2px white;
+  border-bottom: solid 2px white;
+  border-top: 0;
+}
+
+.total td{
+  border: none;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: #a6aeb0;
+  width: 100%;
+}
+
+.tableForm{
+  width: 100%;
+  /* background-color: rgb(189, 189, 189); */
+  height: fit-content;
+}
+
